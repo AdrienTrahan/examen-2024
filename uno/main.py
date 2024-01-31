@@ -133,6 +133,8 @@ class Joueur:
         if (jeu.paquet.estJeuPossible(self.main)):
             self.main.trierMain();
             numerosValides = [i for i, carte in enumerate(self.main.cartes) if jeu.paquet.carte.estCarteCompatible(carte)]
+            for _ in range(50):
+                print("\n")
             print(f"Vos cartes: ({len(self.main.cartes)})")
             self.main.afficherCartes(jeu);
             numeroCarte = self.demanderCarte(numerosValides);
