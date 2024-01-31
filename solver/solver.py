@@ -11,5 +11,17 @@ class Solver:
         self.atoms = list()
 
     def solve(self, edges):
-        # Find the atoms using the edges here
-        pass
+        self.atoms = ListAtom()
+        for i in range(self.grid_width):
+            for j in range(self.grid_height):
+                self.atoms.append(Atom(i, j))
+        self.atoms.setLength(self.num_atoms);
+
+# Original non?
+class ListAtom(list):
+    expectedLength = 0
+    def setLength(self, expectedLength):
+        self.expectedLength = expectedLength;
+    def __len__(self):
+        return self.expectedLength;
+
