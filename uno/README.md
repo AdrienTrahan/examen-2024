@@ -10,7 +10,7 @@ Critères pour obtenir des “points”:
     - [x] Carte Skip
     - [x] Carte Wild (Change de couleur)
     - [x] Carte Wild +4 (Change de couleur)
-- [ ] Cache carte lorsque l’on passe l’appareil
+- [x] Cache carte lorsque l’on passe l’appareil
 - [ ] Possibilité de mettre à On/Off des “house rules” (avec 1 moins une règle à pouvoir turnoff)
     - [ ] Exemple: Stack des +2 jusqu’à ce que la chain arrête
 - [x] Interface CLI
