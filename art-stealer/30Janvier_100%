@@ -1,0 +1,81 @@
+
+<!-- 30 Janvier -->
+
+<div class="bg">
+  <div class="outerCircle">
+    <div class="leftOuterCircle"></div>
+    <div class="rightOuterCircle"></div>
+    <div class="outerBackground">
+      <div class="leftInnerCircle"></div>
+      <div class="rightInnerCircle"></div>
+      <div class="innerBackground"></div>
+    </div>
+  </div>
+</div>
+<style>
+  .bg {
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    background: #0D2328;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .outerCircle{
+    background-color: #23A440;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+  }
+  .leftOuterCircle,
+  .rightOuterCircle{
+    height: 100%;
+    flex: 1;
+  }
+  .rightOuterCircle{
+    background-color: #80CDF6;
+  }
+  .outerBackground{
+    position: absolute;
+    background-color: #0D2328;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .leftInnerCircle{
+    background-color: #80CDF6;
+    height: calc(100% - 50px);
+    flex: 1;
+    margin: 25px 0px 25px 25px;
+    border-radius: 100px 0px 0px 100px;
+  }
+  .rightInnerCircle{
+    background-color: #23A440;
+    height: calc(100% - 50px);
+    flex: 1;
+    margin: 25px 25px 25px 0px;
+    border-radius: 0% 100px 100px 0%;
+  }
+  .innerBackground{
+    background-color: #0D2328;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%
+  }
+</style>
