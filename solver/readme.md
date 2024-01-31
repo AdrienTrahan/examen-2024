@@ -4,3 +4,4 @@ Votre ami a découvert un nouveau jeu https://en.wikipedia.org/wiki/Black_Box_(g
 Pour se faire, il faut compléter le fichier solver.py afin que les différents tests unitaires fournis dans le fichier solver test.py passent. Les tests ne seront pas roulés dans le même ordre à la correction et tous les fichiers sauf solver.py seront réinitialisés à la correction. Un pointage sera assigné à la rapidité d'exécution des tests. 
 
 ### Crédits aux jdg 24 pour l'exercice
+[alt text](preuve.png)
